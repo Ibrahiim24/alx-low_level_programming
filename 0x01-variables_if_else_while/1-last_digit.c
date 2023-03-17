@@ -3,12 +3,10 @@
 #include <stdio.h>
 
 /**
-* main - Entry point  
-*Description: print thie last digit of the number n
+* main - Prints a text accourding number
+*Return: Always 0 (Success)
 *
-*Return* Always 0 (Success)
 */
-
 int main(void)
 {
 	int n, lastd;
