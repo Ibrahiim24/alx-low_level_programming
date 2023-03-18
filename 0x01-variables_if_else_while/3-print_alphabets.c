@@ -3,7 +3,7 @@
 /*
 * main - Entry point
 *
-* Description: Prints the alphabet in lowercase then in uppercase.
+* Description: Prints  alphabet in lowercase then in uppercase
 *
 * Return: Always 0 (Success)
 */
@@ -20,7 +20,7 @@ putchar(ch);
 ch++;
 }
 /*prints A - Z*/
-while (CH <= 'z')
+while (CH <= 'Z')
 {
 putchar(CH);
 CH++;
