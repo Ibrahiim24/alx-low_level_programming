@@ -9,22 +9,22 @@
 int main(void)
 
 {
-int i, j;
-
-for (i = 0; i < 10; i++)
-
+int d, p;
+for  (d = '0'; d < '9'; d++)
 {
-for (j = i + 1; j < 10; j++)
-
+for (p = d + 1; p <= '9'; d++)
 {
-putchar('0' + i);
-putchar('0' + j);
-if (i < 8 || j < 9)
+if (p != d)
 {
+putchar(d);
+putchar(p);
+if (d == '8' && p == '9')
+continue;
 putchar(',');
 putchar(' ');
 }
 }
 }
+putchar('\n');
 return (0);
 }
