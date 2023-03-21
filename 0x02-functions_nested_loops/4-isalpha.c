@@ -4,8 +4,7 @@
  * _isalpha - function that checks for alphabetic
  *
  * @c: parameter to be checked
- *
- * Return: 1 if it is an alphabet and 0 if anything else 
+ * Return: 1 if it is an alphabet and 0 otherwise
  */
 
 int _isalpha(int c)
